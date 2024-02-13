@@ -28,18 +28,3 @@ def get_shop_list_by_dishes(dishes, person_count):
           ingredients_dictionary[ingredient['ingredient_name']]['quantity'] += int(ingredient['quantity']) * person_count
   return ingredients_dictionary
 print(get_shop_list_by_dishes(['Запеченный картофель', 'Омлет'], 2)  )
-
-
-
-
-
-# Создаем словарь со значениями-словарями
-main_dict = {
-    "dict1": {"key1": 1, "key2": 2, "key3": {"nested_key1": "a", "nested_key2": "b"}},
-    "dict2": {"name": "Alice", "age": 30, "address": {"street": "123 Main St", "city": "Anytown"}},
-    "dict3": {"city": "New York", "country": "USA", "population": 8000000}
-}
-
-# Выводим значения словаря
-print(main_dict["dict1"]["key3"]["nested_key2"])
-print(main_dict["dict2"]["address"]["key==3"])
