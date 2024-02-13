@@ -42,4 +42,4 @@ main_dict = {
 
 # Выводим значения словаря
 print(main_dict["dict1"]["key3"]["nested_key2"])
-print(main_dict["dict2"]["address"][key==3])
+print(main_dict["dict2"]["address"]["key==3"])
